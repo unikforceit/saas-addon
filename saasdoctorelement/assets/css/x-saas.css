@@ -1,0 +1,356 @@
+/*Global*/
+.saasdoctor-main-header.saasdoctor-nav-builder {
+  display: flex;
+}
+
+.saasdoctor-nav-builder .header-nav-style .main-navigation-area, .saasdoctor-nav-builder .header-nav-style {
+  padding: 0;
+}
+
+.saasdoctor-nav-builder .str-mobile_menu_button {
+  position: initial;
+}
+
+.saasdoctor-text-gradient .elementor-heading-title {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.saasdoctor-icon-gradient .elementor-icon i {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.saasdoctor-icon-gradient .elementor-icon i:before {
+  position: initial;
+}
+
+.saasdoctor-sticky-header.sticky-on {
+  top: 0;
+  width: 100% !important;
+  z-index: 20;
+  position: fixed !important;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-timing-function: ease;
+  transition: 0.3s all ease-in-out;
+  box-shadow: 0 3px 18px rgba(2, 21, 78, 0.09);
+}
+
+.saas-testimonial-section .saas-testimonial-item .saas-testi-inner {
+  background-image: url("https://unikforce.xyz/saas/wp-content/uploads/2021/07/qq.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.saas-testimonial-section .saas-testimonial-item .saas-testi-inner article {
+  margin-bottom: 50px;
+  max-width: 85%;
+}
+.saas-testimonial-section .swiper-button-next {
+  top: -135px;
+  color: #E8E8E8;
+  height: 107px;
+  width: 107px;
+  border: 1px solid #DDDDDD;
+  background-color: transparent;
+  background-image: none;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.saas-testimonial-section .swiper-button-next:after {
+  content: none;
+}
+.saas-testimonial-section .swiper-button-next:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.saas-about-form {
+  text-align: center;
+}
+.saas-about-form input[type=text],
+.saas-about-form input[type=number],
+.saas-about-form input[type=email],
+.saas-about-form textarea,
+.saas-about-form input[type=tel] {
+  border: 2px solid #FFFFFF;
+  height: 60px;
+  width: 100%;
+  background: transparent;
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+.saas-about-form textarea {
+  height: 112px;
+}
+.saas-about-form ::placeholder {
+  color: #FFFFFF;
+  font-size: 17px;
+}
+.saas-about-form .name-mail {
+  display: flex;
+  margin-bottom: 10px;
+}
+.saas-about-form .name-mail span:first-child {
+  margin-right: 10px;
+}
+.saas-about-form input[type=submit] {
+  margin-top: 10px;
+  display: inline-block;
+  width: 192px;
+  height: 64px;
+  border: 2px solid transparent;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #BFFF6D;
+  border-radius: 90px;
+  line-height: 62px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.saas-about-form input[type=submit]:hover {
+  background-color: transparent;
+  border: 2px solid #BFFF6D;
+  color: #FFFFFF;
+}
+
+.saas-blog-section .related_postitem {
+  background-color: #0A4DF3;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.saas-blog-section .related_postitem .postitem_img img {
+  transition: all 0.3s ease-in-out;
+}
+.saas-blog-section .related_postitem:hover .postitem_img img {
+  transform: scale(1.1);
+}
+.saas-blog-section .related_postitem .postitem_text {
+  padding: 20px 25px 40px 25px;
+}
+.saas-blog-section .related_postitem .blog-meta {
+  font-size: 18px;
+  font-weight: 500;
+  color: #789FFF;
+  text-transform: uppercase;
+}
+.saas-blog-section .related_postitem h4 {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.saas-blog-section .related_postitem .read-more a {
+  display: inline-block;
+  width: 160px;
+  height: 64px;
+  border: 2px solid transparent;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #BFFF6D;
+  border-radius: 90px;
+  line-height: 62px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+.saas-blog-section .related_postitem .read-more a:hover {
+  background-color: transparent;
+  border: 2px solid #BFFF6D;
+  color: #FFFFFF;
+}
+
+.saas-hero-section .hero-title-list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.saas-hero-section .hero-title-list .hero-content-inner .hero-video {
+  transform: scale(0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  z-index: -1;
+  top: -90px;
+  pointer-events: none;
+  width: 340px;
+  height: 340px;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-clip-path: inset(0 0 0 0 round 50%);
+  clip-path: inset(0 0 0 0 round 50%);
+}
+.saas-hero-section .hero-title-list .hero-content-inner:hover .hero-video {
+  transform: scale(1.1);
+  visibility: visible;
+  opacity: 1;
+}
+.saas-hero-section .hero-title-list .hero-content-inner .hero-title a {
+  color: #FFFFFF;
+  font-size: 90px;
+  font-weight: 500;
+  -webkit-text-fill-color: #00000000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+}
+.saas-hero-section .hero-title-list .hero-content-inner .hero-title a:hover {
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00000000;
+}
+
+.saas-listing-section p {
+  margin-bottom: 0;
+}
+.saas-listing-section .listing-item {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.saas-listing-section .listing-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  background-color: #0A4DF3;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+}
+.saas-listing-section .listing-item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background-color: #BFFF6D;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+}
+.saas-listing-section .listing-item .listing-img {
+  overflow: hidden;
+  transform: translate(90px, 50px);
+  transition: all 0.5s ease-in-out;
+}
+.saas-listing-section .listing-item .listing-img img {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.saas-listing-section .listing-item .listing-content {
+  color: #000000;
+  padding: 0 30px 60px 30px;
+  visibility: hidden;
+  height: 0;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.saas-listing-section .listing-item .listing-content .listing-title-excerpt {
+  margin-top: 10px;
+}
+.saas-listing-section .listing-item .listing-content .listing-title-excerpt h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.saas-listing-section .listing-item .listing-content .listing-title-excerpt p {
+  font-size: 18px;
+}
+.saas-listing-section .listing-item .listing-content .listing-price-btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.saas-listing-section .listing-item .listing-content .listing-price-btn .listing-price p {
+  font-size: 18px;
+}
+.saas-listing-section .listing-item .listing-content .listing-price-btn .listing-price ins {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.saas-listing-section .listing-item .listing-content .listing-price-btn .listing-btn a {
+  display: inline-block;
+  width: 164px;
+  height: 56px;
+  background: #FFFFFF;
+  border-radius: 90px;
+  line-height: 56px;
+  text-align: center;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+}
+.saas-listing-section .listing-item .listing-content .listing-price-btn .listing-btn a:hover {
+  color: #FFFFFF;
+  background-color: #000e14;
+}
+.saas-listing-section .listing-item:hover:before {
+  height: 0;
+}
+.saas-listing-section .listing-item:hover:after {
+  height: 550px;
+}
+.saas-listing-section .listing-item:hover .listing-content {
+  visibility: visible;
+  height: 100%;
+  transform: translateY(0);
+  opacity: 1;
+}
+.saas-listing-section .listing-item:hover .listing-img {
+  transform: translate(-50px, 100px);
+}
+.saas-listing-section .listing-item:hover .listing-img img {
+  transform: scale(0.63);
+}
+.saas-listing-section.related-listing .swiper-button-next {
+  top: -135px;
+  right: 25%;
+  color: #E8E8E8;
+  height: 107px;
+  width: 107px;
+  border: 1px solid #DDDDDD;
+  background-color: transparent;
+  background-image: none;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.saas-listing-section.related-listing .swiper-button-next:after {
+  content: none;
+}
+.saas-listing-section.related-listing .swiper-button-next:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+  .saas-testimonial-section .swiper-button-next {
+    top: inherit;
+    bottom: -60px;
+    left: 40%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .saas-hero-section .hero-title-list {
+    display: inherit;
+  }
+}
+
+/*# sourceMappingURL=x-saas.css.map */

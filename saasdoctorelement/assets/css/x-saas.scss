@@ -1,0 +1,371 @@
+$primary_color: #0946DF;
+$secondary_color: #0A4DF3;
+$third_color: #BFFF6D;
+/*Global*/
+.saasdoctor-main-header.saasdoctor-nav-builder {
+  display: flex;
+}
+.saasdoctor-nav-builder .header-nav-style .main-navigation-area, .saasdoctor-nav-builder .header-nav-style {
+  padding: 0;
+}
+.saasdoctor-nav-builder .str-mobile_menu_button {
+  position: initial;
+}
+.saasdoctor-text-gradient .elementor-heading-title {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.saasdoctor-icon-gradient .elementor-icon i{
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.saasdoctor-icon-gradient .elementor-icon i:before{
+  position: initial;
+}
+.saasdoctor-sticky-header.sticky-on {
+    top: 0;
+    width: 100% !important;
+    z-index: 20;
+    position: fixed !important;
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-timing-function: ease;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 3px 18px rgba(2, 21, 78, 0.09);
+}
+
+.saas-testimonial-section {
+  .saas-testimonial-item{
+    .saas-testi-inner {
+      background-image: url('https://unikforce.xyz/saas/wp-content/uploads/2021/07/qq.png');
+      background-position: top left;
+      background-repeat: no-repeat;
+      article {
+        margin-bottom: 50px;
+        max-width: 85%;
+      }
+    }
+  }
+  .swiper-button-next {
+    top: -135px;
+    color: #E8E8E8;
+    height: 107px;
+    width: 107px;
+    border: 1px solid #DDDDDD;
+    background-color: transparent;
+    background-image: none;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    &:after {
+      content: none;
+    }
+
+    &:hover {
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+  }
+}
+.saas-about-form{
+  text-align: center;
+  input[type = "text"],
+  input[type = "number"],
+  input[type = "email"],
+  textarea,
+  input[type = "tel"]{
+    border: 2px solid #FFFFFF;
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 17px;
+  }
+  textarea {
+    height: 112px;
+  }
+  ::placeholder {
+    color: #FFFFFF;
+    font-size: 17px;
+  }
+  .name-mail {
+    display: flex;
+    margin-bottom: 10px;
+    span:first-child{
+      margin-right: 10px;
+    }
+  }
+  input[type="submit"] {
+    margin-top: 10px;
+    display: inline-block;
+    width: 192px;
+    height: 64px;
+    border: 2px solid transparent;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #BFFF6D;
+    border-radius: 90px;
+    line-height: 62px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    &:hover{
+      background-color: transparent;
+      border: 2px solid #BFFF6D;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.saas-blog-section {
+  .related_postitem {
+    background-color: $secondary_color;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    .postitem_img img{
+      transition: all .3s ease-in-out;
+    }
+    &:hover .postitem_img img{
+      transform: scale(1.1);
+    }
+    .postitem_text {
+      padding: 20px 25px 40px 25px;
+    }
+    .blog-meta {
+      font-size: 18px;
+      font-weight: 500;
+      color: #789FFF;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      font-size: 25px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+      text-transform: capitalize;
+    }
+
+    .read-more a {
+      display: inline-block;
+      width: 160px;
+      height: 64px;
+      border: 2px solid transparent;
+      font-size: 17px;
+      font-weight: 500;
+      background-color: $third_color;
+      border-radius: 90px;
+      line-height: 62px;
+      text-align: center;
+      transition: all .3s ease-out;
+
+      &:hover {
+        background-color: transparent;
+        border: 2px solid $third_color;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+.saas-hero-section {
+  .hero-title-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .hero-content-inner {
+      .hero-video {
+        transform: scale(.5);
+        visibility: hidden;
+        opacity: 0;
+        transition: all .3s ease-in-out;
+        position: absolute;
+        z-index: -1;
+        top: -90px;
+        pointer-events: none;
+        width: 340px;
+        height: 340px;
+        margin: 0 auto;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-clip-path: inset(0 0 0 0 round 50%);
+        clip-path: inset(0 0 0 0 round 50%);
+      }
+      &:hover .hero-video{
+        transform: scale(1.1);
+        visibility: visible;
+        opacity: 1;
+      }
+      .hero-title a {
+        color: #FFFFFF;
+        font-size: 90px;
+        font-weight: 500;
+        -webkit-text-fill-color: #00000000;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #FFFFFF;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+          color: #000000;
+          -webkit-text-fill-color: #000000;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: #00000000;
+        }
+      }
+    }
+  }
+}
+.saas-listing-section {
+  p{
+    margin-bottom: 0;
+  }
+  .listing-item {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    margin-bottom: 30px;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 550px;
+      background-color: $secondary_color;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .5s ease-in-out;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 0;
+      background-color: $third_color;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .5s ease-in-out;
+    }
+    .listing-img {
+        overflow: hidden;
+      transform: translate(90px, 50px);
+      transition: all .5s ease-in-out;
+      img {
+        transform: scale(1);
+        transition: all .5s ease-in-out;
+      }
+    }
+    .listing-content {
+      color: #000000;
+      padding: 0 30px 60px 30px;
+      visibility: hidden;
+      height: 0;
+      transform: translateY(200px);
+      opacity: 0;
+      transition: all .5s ease-in-out;
+      .listing-title-excerpt {
+        margin-top: 10px;
+        h3 {
+          font-size: 40px;
+          font-weight: 500;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+      .listing-price-btn {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .listing-price {
+          p {
+            font-size: 18px;
+          }
+
+          ins {
+            font-size: 30px;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+        }
+        .listing-btn{
+          a{
+            display: inline-block;
+            width: 164px;
+            height: 56px;
+            background: #FFFFFF;
+            border-radius: 90px;
+            line-height: 56px;
+            text-align: center;
+            font-size: 17px;
+            transition: all .3s ease-in-out;
+            color: #000000;
+            &:hover{
+              color: #FFFFFF;
+              background-color: #000e14;
+            }
+          }
+        }
+      }
+    }
+    &:hover:before{
+      height: 0;
+    }
+    &:hover:after{
+      height: 550px;
+    }
+    &:hover .listing-content{
+      visibility: visible;
+      height: 100%;
+      transform: translateY(0);
+      opacity: 1;
+    }
+    &:hover .listing-img {
+      transform: translate(-50px, 100px);
+      img {
+        transform: scale(.63);
+      }
+    }
+  }
+  &.related-listing{
+    .swiper-button-next {
+      top: -135px;
+      right: 25%;
+      color: #E8E8E8;
+      height: 107px;
+      width: 107px;
+      border: 1px solid #DDDDDD;
+      background-color: transparent;
+      background-image: none;
+      font-size: 20px;
+      border-radius: 50%;
+      transition: all 0.3s ease-in-out;
+      &:after {
+        content: none;
+      }
+
+      &:hover {
+        background-color: #FFFFFF;
+        color: #000000;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px){
+  .saas-testimonial-section .swiper-button-next {
+    top: inherit;
+    bottom: -60px;
+    left: 40%;
+    height: 50px;
+    width: 50px;
+  }
+  .saas-hero-section .hero-title-list {
+    display: inherit;
+  }
+}
